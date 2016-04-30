@@ -13,9 +13,13 @@
       <h1>excuse goes here</h1>
 
     </div>
-    <div class='user'>user here</div>
-    <button class='btn btn-danger' ng-click='randomUser()'>Find a useless engineer</button>
   </div>
+  <div class='user'>
+    <img class='person' src="{{user}}" alt="" />
+    <p>{{firstName}} {{lastName}}</p>
+  </div>
+  <br>
+  <button class='btn btn-danger' ng-click='randomUser()'>Find a useless engineer</button>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular-route.js"></script>
