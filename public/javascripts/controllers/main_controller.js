@@ -5,7 +5,7 @@ var background = ['1', '2', '3', '4', '5', '6', '7', '8']
 $scope.getQuotes = function(){
       $http({
         method: 'GET',
-        url: "http://ron-swanson-quotes.herokuapp.com/v2/quotes",
+        url: "https://ron-swanson-quotes.herokuapp.com/v2/quotes",
         dataType: 'json'
       }).then(function(result){
         console.log(result);
