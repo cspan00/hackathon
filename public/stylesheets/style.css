@@ -26,10 +26,16 @@ a {
   text-align: center;
   color: black;
 }
+
 .user {
+ margin-top: 4rem;
+ margin-left: 90rem;
+}
+
+.user img {
   width: 100px;
   height: 100px;
-  border: 2px solid black;
+  border-radius: 50px;
 }
 
 .person {
